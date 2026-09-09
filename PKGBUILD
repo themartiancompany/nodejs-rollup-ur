@@ -75,7 +75,7 @@ _pkgdesc=(
 pkgdesc="${_pkgdesc[*]}"
 pkgver=4.52.5
 _commit="17bbfff4add818aa762a9bfceca10d29143e2fb8"
-pkgrel=2
+pkgrel=3
 arch=(
   'any'
 )
