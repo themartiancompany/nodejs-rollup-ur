@@ -45,7 +45,7 @@ if [[ ! -v "_evmfs" ]]; then
 fi
 _node="nodejs"
 if [[ "${_os}" == "Android" ]]; then
-  _node="nodejs-lts"
+  _lts="true"
 fi
 if [[ ! -v "_npm" ]]; then
   _npm="true"
@@ -75,7 +75,7 @@ _pkgdesc=(
 pkgdesc="${_pkgdesc[*]}"
 pkgver=4.52.5
 _commit="17bbfff4add818aa762a9bfceca10d29143e2fb8"
-pkgrel=3
+pkgrel=4
 arch=(
   'any'
 )
