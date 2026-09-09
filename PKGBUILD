@@ -75,12 +75,12 @@ _pkgdesc=(
 pkgdesc="${_pkgdesc[*]}"
 pkgver=4.52.5
 _commit="17bbfff4add818aa762a9bfceca10d29143e2fb8"
-pkgrel=1
+pkgrel=2
 arch=(
   'any'
 )
 _http="https://${_git_http}.com"
-_ns="JiangJie"
+_ns="rollup"
 url="${_http}/${_ns}/${_pkg}"
 license=(
   'MIT'
